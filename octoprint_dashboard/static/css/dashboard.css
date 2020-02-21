@@ -45,13 +45,13 @@
 }
 
 .dashboardSmall {
-  color: #08c;
+  color: #FFFFFF;
   font-size: 15px;
   padding: 0;
 }
 
 .dashboardLarge {
-  color: #08c;
+  color: #FFFFFF;
   font-size: 25px;
 }
 
@@ -77,7 +77,7 @@
 }
 
 .dashboardGauge {
-  stroke: #08c;
+  stroke: #30910F;
 }
 
 div.inline {
@@ -86,7 +86,7 @@ div.inline {
 
 svg path {
   will-change: auto;
-  stroke-width: 20px;
+  stroke-width: 10px;
   stroke-miterlimit: round;
   shape-rendering: auto;
   transition: stroke-dashoffset 500ms ease-in-out;
@@ -94,7 +94,7 @@ svg path {
 
 svg text {
   font-family: sans-serif;
-  fill: #08c;
+  fill: #FFFFFF;
 }
 
 /*Chart*/
@@ -103,23 +103,23 @@ svg text {
   padding-top: 5px;
 }
 .ct-series-a .ct-line {
-  stroke: #08c;
-  stroke-width: 3px;
+  stroke: #30910F;
+  stroke-width: 6px;
 }
 .ct-labels span {
-  color: steelblue;
+  color: white;
 }
 .ct-grids line {
-  color: steelblue;
+  color: white;
 }
 .ct-series-a .ct-area {
-  fill: steelblue;
+  fill: white;
 }
 .ct-grid{ 
-  stroke: steelblue;
+  stroke: white;
 }
 .ct-horizontal{ 
-  stroke: steelblue;
+  stroke: white;
 }
 
 
