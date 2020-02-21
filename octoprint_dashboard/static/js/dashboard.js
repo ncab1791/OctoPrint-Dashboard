@@ -440,18 +440,18 @@ $(function () {
                 return "orange";
             }
             else if (self.cpuTemp() < self.settingsViewModel.settings.plugins.dashboard.cpuTempWarningThreshold()) {
-                return "#08c";
+                return "#30910F";
             }
         }
 
         self.tempColor = function (actual, target) {
             if (self.settingsViewModel.settings.plugins.dashboard.showTempGaugeColors() == true) {
                 if (target == 0) {
-                    return "#08c";
+                    return "#30910F";
                 }
                 else if (target > 0) {
                     if (actual < target - self.settingsViewModel.settings.plugins.dashboard.targetTempDeviation()) {
-                        return "#08c"; //blue   
+                        return "#30910F"; //blue   
                     }
                     else if (actual > target + self.settingsViewModel.settings.plugins.dashboard.targetTempDeviation()) {
                         return "#ff3300"; //red   
@@ -460,7 +460,7 @@ $(function () {
 
                 }
             }
-            else return "#08c";
+            else return "#30910F";
         }
 
         self.embedUrl = function () {
